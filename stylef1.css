@@ -1,0 +1,101 @@
+
+body {
+  background-color: white;
+}
+
+
+#header {
+  width:100%;
+  clear: both;
+  height: 50px;
+  display:block;
+  position:absolute;
+  top:0;
+  left: 0;
+  float:left;
+}
+
+
+#message
+ {
+   width: 95%;
+   float: left;
+   background-color: #333;
+   color: white;
+   height:50px;
+   display:block;
+    border-top-left-radius: 15px;
+}
+
+#message p {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#x {
+  width: 4.5%;
+  float: left;
+  background-color: red;
+  height: 50px;
+  text-align:center;
+  border-top-right-radius: 15px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 100%;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+
+#search {
+  display: block;
+  float:left;
+  height:4em;
+  width: 100%;
+  text-align: center;
+  font-size: 600%;
+  z-index:-1;
+}
+
+
+#giigle h1{
+  height: .3em;
+  display:block;
+  font-family:Lucida;
+}
+
+
+#pb1{
+  color:blue;
+  float:left;
+  padding-left: 30%;
+}
+#pb2{
+  color:blue;
+  float:left;
+}
+
+#pr {
+  color:red;
+  float:left;
+}
+
+#py {
+  color:yellow;
+  float:left;
+}
+
+#pg {
+  color:green;
+  float:left;
+}
+
+
+.bar {
+  clear:both;
+  float: left;
+  margin-left:30%;
+  position:relative;
+  display:block;
+}

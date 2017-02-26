@@ -1,0 +1,90 @@
+.reg {
+  font-family: courier;
+  color: #39FF14;
+  background-color: black;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+a {
+  float: left;
+}
+
+audio {
+  display:none;
+}
+
+#headere {
+  width:100%;
+  clear: both;
+  height: 3em;
+  display:block;
+  position:absolute;
+  top:70px;
+  left: 0;
+  float:left;
+}
+
+
+#messagee
+ {
+   width: 94.5%;
+   float: left;
+   background-color: #ddd;
+   color: Black;
+   height:3em;
+   display:block;
+    border-top-left-radius: 15px;
+    margin-left:8px;
+}
+
+#messa {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#x {
+  width: 4.5%;
+  float: right;
+  background-color: red;
+  height: 3em;
+  display:block;
+  text-align:center;
+  border-top-right-radius: 15px;
+}
+
+#x a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 250%;
+  text-decoration:none;
+  margin-right: .5%;
+}
+
+#pop {
+  color:red;
+  font-family: sans-serif;
+  background-color: #bbb;
+  font-weight: bold;
+  font-size: 175%;
+  height: 10em;
+  width: 100%;
+  margin-right:0;
+}
+
+#pop p {
+  padding-left: 15px;
+}
+form {
+  float:left;
+  background-color: #bbb;
+}
