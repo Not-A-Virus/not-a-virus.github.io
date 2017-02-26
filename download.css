@@ -1,0 +1,30 @@
+#download1 {
+    position: absolute;
+    left:2em;
+    top: 3em;
+}
+#download2 {
+    position: absolute;
+    right:2em;
+    top: 3em;
+}
+#download3 {
+    position: absolute;
+    left:2em;
+    top: 8em;
+}
+#download4 {
+    position: absolute;
+    right:2em;
+    top: 8em;
+}
+#download5 {
+    position: absolute;
+    left:2em;
+    top: 17em;
+}
+#download6 {
+    position: absolute;
+    right:2em;
+    top: 20em;
+}

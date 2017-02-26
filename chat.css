@@ -1,0 +1,178 @@
+#header {
+  width:100%;
+  clear: both;
+  height: 3em;
+  display:block;
+  position:absolute;
+  top:0;
+  left: 0;
+  float:left;
+}
+
+
+#send {
+    height:3em;
+    width:95%;
+    background-color:#fdfdfd;
+    position: fixed;
+    bottom: 10px;
+    border-style:solid;
+    border-width: 1px;
+}
+
+
+#message
+ {
+   width: 95%;
+   float: left;
+   background-color: #333;
+   color: white;
+   height:3em;
+   display:block;
+    border-top-left-radius: 15px;
+    margin-left: .5%;
+}
+
+#message p {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#x {
+  width: 4.5%;
+  float: right;
+  background-color: red;
+  height: 3em;
+  display:block;
+  text-align:center;
+  border-top-right-radius: 15px;
+}
+
+#x a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 250%;
+  text-decoration:none;
+  margin-right: .5%;
+}
+
+
+body {
+    background-color:white;
+}
+
+#message1 {
+    position:absolute;
+    top:55px;
+    left:1%;
+}
+    
+
+#message2 {
+    position:absolute;
+    top:130px;
+    left:1%;
+}
+
+
+
+#message3 {
+    
+    position:absolute;
+    top:230px;
+    left:1%;
+    
+    -webkit-animation: NAME-YOUR-ANIMATION 3s;
+    -moz-animation: NAME-YOUR-ANIMATION 3s;
+    -o-animation: NAME-YOUR-ANIMATION 3s;
+    animation: NAME-YOUR-ANIMATION 3s;
+}
+@keyframes NAME-YOUR-ANIMATION {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes NAME-YOUR-ANIMATION {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-o-keyframes NAME-YOUR-ANIMATION {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes NAME-YOUR-ANIMATION {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+    
+}
+
